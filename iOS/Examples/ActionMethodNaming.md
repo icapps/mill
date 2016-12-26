@@ -17,7 +17,7 @@ A better solution is to pass data to OverviewBuildingsViewController in prepareF
 
 ```swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    let overviewBuildingsViewController = segue.destination as? OverviewBuildingsViewController {
+    if let overviewBuildingsViewController = segue.destination as? OverviewBuildingsViewController {
       overviewBuildingsViewController.totalDistance = viewModel.getTotalDistance(routeManager.savedWayPoints)
     }
 }
