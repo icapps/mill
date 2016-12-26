@@ -1,5 +1,6 @@
 # A UITableViewCell cannot know anything about the UITableView 👍
 A UITableViewCell cannot know anything about it’s parent UITableView.
+This improves reuseability, and prevents unwanted side effects.
 
 ```objective-c
 + (CGFloat)heightForType:(PRAccountType)type
@@ -16,4 +17,4 @@ A UITableViewCell cannot know anything about it’s parent UITableView.
 	return 142;
 }
 ```
-/PRAccountType should be an enum and we should use a switch-case here, but we can’t have it all ¯\_(ツ)_/¯/
+*PRAccountType should be an enum and we should use a switch-case here, but we can’t have it all ¯\_(ツ)_/¯*
