@@ -17,7 +17,7 @@ How to add Live Template in Webstorm
 
 1. open preferences
 2. editor > live templates
-3. add template group for React Native
+3. add template group for your custom templates (e.g. *'custom'*, *'React Native'*, ...)
 4. add templates below to the new group
 5. define context > javascript
 6. edit variables > add "fileNameWithoutExtension" to "$fnName$"
