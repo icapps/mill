@@ -10,6 +10,7 @@ An overview:
 - [React templates](#react-templates)
 - [React native templates](#react-native-templates)
 
+
 ## Add'm to Webstorm
 
 How to add Live Template in Webstorm
@@ -20,8 +21,6 @@ How to add Live Template in Webstorm
 4. add templates below to the new group
 5. define context > javascript
 6. edit variables > add "fileNameWithoutExtension" to "$fnName$"
-
-
 
 
 ## Javascript templates
@@ -44,6 +43,7 @@ console.log($CONTENT$);
 }());
 ```
 
+
 #### `pro`: Promise ES6 style
 
 ```javascript
@@ -51,6 +51,7 @@ new Promise((resolve, reject) => {
     $CONTENT$
 });
 ```
+
 
 #### `pro`: Promise ES5 style
 
@@ -78,6 +79,7 @@ function $NAME$($ARGUMENTS$) {
 }
 ```
 
+
 #### `class`: Class
 
 ```javascript
@@ -95,6 +97,7 @@ class $CLASS_NAME$ {
 'use strict';
 $END$
 ```
+
 
 ## React templates
 
@@ -231,8 +234,6 @@ shouldComponentUpdate(nextProps, nextState) {
 ```
 
 
-
-
 ## React native templates
 
 #### `rncc`: React Native Statefull Component
@@ -288,8 +289,6 @@ export function dummieAction () {
   }
 }
 
-
-
 const initialState = {
  
 }
@@ -305,7 +304,6 @@ export default function settings (state = initialState, action) {
   }
 }
 ```
-
 
 
 #### `rnss`: React Native Stylesheet
