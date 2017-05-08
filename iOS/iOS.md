@@ -1,7 +1,7 @@
 # iOS Unit - Code Examples
 The good:
 * [UITableViewCell](./Examples/TableViewCell.md)
-* [How, why and when to use throws](./Example/ThrowExample.swift)
+* [How, why and when to use throws](./Examples/ThrowExample.swift)
 
 The bad:
 * [Force unwrapping](./Examples/SwiftForceUnwrapping.md)
